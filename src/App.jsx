@@ -142,6 +142,19 @@ function App() {
           </div>
         </section>
       </main>
+      <footer className={styles.footer}>
+        <p>Created by Karthik Krishnan, 2025. All rights reserved.</p>
+        <p>
+          <a 
+            href="https://github.com/iamkarthik2004"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.githubLink}
+          >
+            <i className="fab fa-github"></i> GitHub
+          </a>
+        </p>
+      </footer>
     </>
   );
 }
