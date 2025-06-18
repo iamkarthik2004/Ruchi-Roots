@@ -1,4 +1,4 @@
-* {
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -194,17 +194,6 @@ body::-webkit-scrollbar-track {
   background: #ebebeb;
 }
 
-@media screen and (max-width: 600px) {
-  .nav {
-    flex-direction: column;
-  }
-
-  .nav form {
-    width: 80%;
-    margin-top: 20px;
-  }
-}
-
 main {
   display: flex;
   flex-direction: column;
@@ -225,4 +214,47 @@ main {
   padding: 20px;
   background-color: #0f2027; 
   width: 100%;
+}
+
+/* 📱 Responsive Enhancements */
+@media screen and (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav form {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .recipeDetails {
+    width: 90%;
+    height: 75%;
+    font-size: 18px;
+  }
+
+  .recipeDetailsContent {
+    padding: 20px;
+  }
+
+  .recipeInstructions {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .recipeCloseBtn {
+    top: 10px;
+    right: 10px;
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+  }
+
+  .ingredientList li {
+    font-size: 16px;
+  }
+
+  .recipeName {
+    font-size: 22px;
+  }
 }
