@@ -204,3 +204,25 @@ body::-webkit-scrollbar-track {
     margin-top: 20px;
   }
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.recipeContainer {
+  flex: 1; 
+  padding-bottom: 20px; /* Adds space above footer */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #0f2027; 
+  width: 100%;
+}
